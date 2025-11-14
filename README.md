@@ -1,17 +1,17 @@
 # gabsgj.github.io
 
-> Minimal, cinematic "coming soon" site for Gabriel James — live at [gabrieljames.me](https://gabrieljames.me).
+> Minimal, calm "coming soon" surface for Gabriel James — live at [gabrieljames.me](https://gabrieljames.me).
 
 ## Overview
 
-This repo powers the public holding page for Gabriel's forthcoming portfolio + studio. It leans on a single handcrafted `index.html` with beautiful typography, particle effects, and a roadmap that keeps visitors informed while the full site ships.
+This repo powers the holding page for Gabriel's portfolio + studio. It is a single handcrafted `index.html` with subtle WebGL blue waves, a focused hero, and just enough context + contact to feel finished while the full site ships.
 
 ## Highlights
 
-- **Hero story** with animated typewriter headline, stat cards, and direct CTA to book a build sprint.
-- **Glassmorphism contact card** highlighting current focus areas and office hours.
-- **Roadmap panels** outlining upcoming builds, expectations, and availability.
-- **Lightweight particles + accessibility** (respects `prefers-reduced-motion`).
+- **Subtle WebGL background** — soft right-to-left blue waves that gently react to cursor movement.
+- **Typewriter hero line** — short rotating phrases about calm intelligence, applied AI, and copilots for real ops.
+- **Ultra-minimal content** — name, one-line story, "Coming Soon" pill, and direct links to email, GitHub, and LinkedIn.
+- **Accessibility-aware motion** — respects `prefers-reduced-motion` and falls back to a static gradient.
 - **Zero dependencies** — just HTML/CSS/JS for instant deploys.
 
 ## Local development
@@ -25,7 +25,7 @@ cd gabsgj.github.io
 start index.html
 ```
 
-For live reload you can optionally run a tiny static server (e.g. `npx serve .`) but it's not required.
+For live reload you can optionally run a tiny static server (for example `npx serve .`), but it's not required.
 
 ## Deployment
 
