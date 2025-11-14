@@ -32,6 +32,12 @@ For live reload you can optionally run a tiny static server (for example `npx se
 - The site is published through GitHub Pages and pointed to **gabrieljames.me** via the `CNAME` file.
 - Any push to `main` redeploys automatically. Keep assets lightweight for fast Time-To-First-Paint.
 
+Favicon and touch icon files are expected at the repo root as:
+
+- `favicon.png` (32×32)
+- `favicon-16.png` (16×16)
+- `apple-touch-icon.png` (180×180+)
+
 ## Contact
 
 Questions or collaboration ideas? Email [gabriel22dec@gmail.com](mailto:gabriel22dec@gmail.com).
